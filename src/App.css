@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&amp;lang=en");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+ }
+p{
+  font-size: 16px;
+}
+h1{
+  font-size: 28px;
+  font-weight: 800;
+}
+h2{
+  font-size: 24px;
+  font-weight: 700;
+}
+h3{
+  font-size: 20px;
+  font-weight: 600;
+}
+h4{
+  font-size: 18px;
+  font-weight: 500;
+}
+h5{
+  font-size: 16px;
+  font-weight: 500;
+}
+.bx-login
+{
+  min-height: 10vh;
+  margin: auto;
+}
+.login-form{
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  margin-top:10%;
+}
+ 
+.field-box input,.field-box textarea{
+  border: 1px solid #cdcdcd;
+  outline: 0px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+}
+.field-box p{
+  margin-top: 8px;
+  color: rgb(128, 0, 0);
+}
+.field-box{
+width: 100%;
+margin-bottom: 10px;
+}
+body .btn-info {
+  color: #fff;
+  background-color: #07849d;
+  border-color: #07849d;
+}
+.loader{
+  position: absolute;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.295);
+  width: 100%;
+  top: 0;
+  z-index: 11111;
+}
+.toast{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 222222;
+}
+.uploader__placeholder{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+margin-bottom: 20px;
+}
+body .uploader__btn_wrapper{
+  right: 12px;
+  top: 50px;
+ }
+ .Project-card h6 span{
+margin: 0px 6px; 
+}
+ .Project-card{
+   max-width: 355px;
+   margin-bottom: 20px;
+   box-shadow: -11px 9px 29px -24px rgba(0,0,0,0.75);
+   padding: 10px 10px 20px 10px;
+   border-radius: 10px;
+  position: relative;
+  border: 1px solid #e2e2e2;
+  width: 100%;
+ }
+ .Project-card-menu button,.Project-card-menu button::after,.Project-card-menu button:hover,.Project-card-menu button:active{
+   background-color: transparent!important;
+   border: none!important;
+   box-shadow: none!important;
+ }
+ .Project-card-menu button::after{
+   content: none;
+ }
+ .Project-card-menu{
+   position: absolute;
+   top: 0px;
+   right: 10px;
+ }
+ .btn-warning{
+   color: rgb(255, 255, 255)!important;
+ }
+ .logo-m{
+   max-width: 120px;
+ }
+ .descfd{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+ }
+.img-cntr   {
+  width: 100%;
+  height: 200px;
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+ 
+ @media (max-width: 768px) {
+  
+   .filter-bar{
+    flex-wrap: wrap;
+   }
+ }
